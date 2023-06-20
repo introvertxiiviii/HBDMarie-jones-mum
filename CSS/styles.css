@@ -1,0 +1,99 @@
+.gradient-background {
+  background: linear-gradient(to right, #6A1B9A, #E91E63);
+
+
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .quote-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .quote-image {
+      max-width: 50%;
+    }
+  }
+
+
+
+
+  .image-container {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .image-container img {
+
+    top: 0;
+    left: 0;
+    animation: image-animation 4s infinite; /* Adjust duration and animation name as needed */
+  }
+  
+  @keyframes image-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Adjust scale value as needed */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+  .Mumwithshorthairs{
+height: 300px;
+width: 300px;
+  }
+
+
+.Fontneedtochange{
+  font-family: 'Courgette', cursive;
+}
+
+.Nostyle{
+  text-decoration: none;
+
+}
+
+
+
+.instagram1 > button > a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+  
